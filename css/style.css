@@ -17,8 +17,14 @@ a{
 .align-center{
     align-items: center;
 }
+.text-start{
+    text-align: start;
+}
 .justify-between{
     justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
 }
 .head-bg{
     background-color: #000;
@@ -97,7 +103,7 @@ a{
     line-height: 50px;
     /* margin-left: 100px; */
     letter-spacing: 1px;
-    padding-top: 200px;
+    padding-top: 99px;
     transition: all 0.5s;
 }
 .second-p{
@@ -118,7 +124,7 @@ a{
 }
 .hone{
     color: white;
-    font-size: 74px;
+    font-size: 80px;
     /* padding-left: 23%; */
     padding-top: 50px;
 }
@@ -153,6 +159,7 @@ a{
 .img-content{
     display: flex;
     justify-content: center;
+    padding-top: 100px;
 }
 marquee{
     background-color: #c9f31d;
@@ -190,4 +197,76 @@ marquee{
     color: white;
     border: none;
     border-radius: 10px;
+}
+.box{
+    background-image: url("../image/bg-black.png");
+    background-repeat: no-repeat;
+    padding:21px;   
+    margin-left: 300px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50px; */
+}
+.box img{
+    margin: 50px 0;
+    padding-left: 50px;
+}
+.info{
+    color: white;
+    padding-left: 78px;
+    text-align: start;
+}
+.porro{
+    font-size: 20px;
+    font-weight: 900;
+    color: #999999;
+    padding-left: 18px;
+}
+.personal{
+    font-size: 45px;
+    margin-bottom: 30px;
+    padding-left: 18px;
+}
+.a-box{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 25px;
+    padding-left: 40px;
+    background-color: #1D1D1D;
+    transition: all 1s;
+    border:1px solid  transparent;
+}
+.a-box:hover{
+    border: 1px solid #c9f31d;
+}
+.mail{
+    padding: 10px 20px;
+    color: #999999;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.id{
+    padding: 10px 20px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+}
+.id a{
+    color: white;
+}
+.app{
+    margin-right: 63px;
+}
+.app-row{
+    padding-top: 20px;
+}
+.app-row svg{
+    margin: 10px;
+}
+.phone{
+    margin-right: 88px;
+}
+.mark-yellow{
+    margin-top: 60px;
 }
