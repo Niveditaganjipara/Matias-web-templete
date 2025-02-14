@@ -20,6 +20,9 @@ a{
 .text-start{
     text-align: start;
 }
+.text-center{
+    text-align: center;
+}
 .justify-between{
     justify-content: space-between;
 }
@@ -186,7 +189,7 @@ marquee{
     text-transform: uppercase;
     margin: 10px;
 }
-.multiple-btns button:first-child{
+.multiple-btns button:first-child {
     background-color: #c9f31d;
     border: none;
     border-radius: 10px;
@@ -219,8 +222,8 @@ marquee{
 }
 .porro{
     font-size: 20px;
-    font-weight: 900;
-    color: #999999;
+    font-weight: 500;
+    color: #efebebed;
     padding-left: 18px;
 }
 .personal{
@@ -251,6 +254,8 @@ marquee{
     text-transform: capitalize;
     color: white;
     font-size: 20px;
+    padding-top: 20px;
+    font-weight: 500;
 }
 .id a{
     color: white;
@@ -269,4 +274,101 @@ marquee{
 }
 .mark-yellow{
     margin-top: 60px;
+}
+.award-section{
+    background-image: url("../image/award.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.award-box{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.23);
+    color: white;
+}
+.our{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight:500;
+    padding: 30px 0;
+}
+.work{
+    color: #c9f31d;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight:500;
+    padding: 30px 0;
+}
+.award{
+    padding: 100px 50px;
+}
+.site
+{
+    font-size: 22px;
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.animation
+{
+    font-size: 22px;
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.year
+{
+    font-size: 22px;
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.Strategy{
+    padding-right: 60px;
+}
+.complete{
+    color: white;
+    font-size: 25px;
+    padding:20px 10px;
+}
+
+
+.portfolio{
+    text-align: center;
+}
+.project{
+    margin-top: 50px;
+    padding-top: 80px;
+    padding: 0 800px;
+}
+.dash-left{
+    position: relative;
+}
+.dash-left::after{
+    position: absolute;
+    content: "";
+    width: 70px;
+    background-color: #c9f31d;
+    top: 50%;
+    right: 20px;
+    height: 1px;
+}
+.dash-right{
+    position: relative;
+}
+.dash-right::after{
+    position: absolute;
+    content: "";
+    width: 70px;
+    background-color: #c9f31d;
+    top: 50%;
+    left: 20px;
+    height: 1px;
+}
+.project-head{
+    text-align: center;
+    color: white;
+    line-height: 60px;
+    font-size: 30px;
+    padding:0px 614px ;
 }
