@@ -17,6 +17,9 @@ a{
 .align-center{
     align-items: center;
 }
+.align-content{
+    align-content: center;
+}
 .text-start{
     text-align: start;
 }
@@ -188,6 +191,7 @@ marquee{
     font-size: 22px;
     text-transform: uppercase;
     margin: 10px;
+    cursor: pointer;
 }
 .multiple-btns button:first-child {
     background-color: #c9f31d;
@@ -246,7 +250,7 @@ marquee{
 .mail{
     padding: 10px 20px;
     color: #999999;
-    font-size: 18px;
+    font-size: 13px;
     text-transform: uppercase;
 }
 .id{
@@ -261,7 +265,7 @@ marquee{
     color: white;
 }
 .app{
-    margin-right: 63px;
+    margin-right: 80px;
 }
 .app-row{
     padding-top: 20px;
@@ -270,7 +274,7 @@ marquee{
     margin: 10px;
 }
 .phone{
-    margin-right: 88px;
+    margin-right: 100px;
 }
 .mark-yellow{
     margin-top: 60px;
@@ -371,4 +375,79 @@ marquee{
     line-height: 60px;
     font-size: 30px;
     padding:0px 614px ;
+}
+.brand-motion{
+    margin-top: 100px;
+}
+.product-design{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #c9f31d;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.identity{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.up-svg{
+    color: white;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #1D1D1D;
+}
+.gift .up-svg{
+    transition: all 0.5s;
+
+}
+.gift:hover .up-svg{
+    background-color: #c9f31d;
+    color: #1D1D1D;
+}
+/* .img{
+    
+    overflow: hidden;
+}
+.square-box {
+    width: 630px;
+    height: 440px;
+    border-radius: 20px;
+    background-image: url("../image/squarebox.mockup.png");
+    background-size: cover;
+    transition: all 0.5s;
+    transform: scale(1);
+    transition: all 0.5s;
+}
+.square-box:hover{
+    cursor: pointer;
+    border-radius:0;
+    background-size: 120%;
+    transform: scale(1.1);
+    border-radius:0;
+} */
+
+.premium{
+    margin-top: 80px;
+}
+.premium img{
+    width: 100%;
+}
+.more-work
+{
+    border: none;
+    width: 210px;
+    height: 210px;
+    border-radius: 300px;
+    background-color: #c9f31d;
+    font-size: 18px;
+    align-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+.more-work:hover{
+    cursor: pointer;
 }
