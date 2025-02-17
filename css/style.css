@@ -10,6 +10,10 @@ a{
     text-decoration: none;
     
 }
+ul,li
+{
+    list-style: none;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +93,10 @@ a{
     border-radius: 5px;
     border: none;
 }
+
+/* <!-- banner-content --> */
+
+
 .banner-content{
     background-image: url("../image/banner-bg-b0959b36.png");
    background-attachment: fixed;
@@ -167,10 +175,18 @@ a{
     justify-content: center;
     padding-top: 100px;
 }
+
+/*  <!-- marquee --> */
+
+
 marquee{
     background-color: #c9f31d;
     padding: 20px 0;
 }
+
+
+/*  <!-- box-prsonal-info --> */
+
 
 .personal-head{
     text-align: center; 
@@ -276,9 +292,17 @@ marquee{
 .phone{
     margin-right: 100px;
 }
+
+/*  <!-- marquee --> */
+
+
 .mark-yellow{
     margin-top: 60px;
 }
+
+/* award-section */
+
+
 .award-section{
     background-image: url("../image/award.png");
     background-repeat: no-repeat;
@@ -330,6 +354,10 @@ marquee{
 .Strategy{
     padding-right: 60px;
 }
+
+/* <!-- portfolio --> */
+
+
 .complete{
     color: white;
     font-size: 25px;
@@ -408,27 +436,41 @@ marquee{
     background-color: #c9f31d;
     color: #1D1D1D;
 }
-/* .img{
-    
+.test
+{
     overflow: hidden;
+   
 }
-.square-box {
-    width: 630px;
-    height: 440px;
-    border-radius: 20px;
-    background-image: url("../image/squarebox.mockup.png");
-    background-size: cover;
-    transition: all 0.5s;
+
+.square-box
+{
     transform: scale(1);
     transition: all 0.5s;
 }
-.square-box:hover{
-    cursor: pointer;
-    border-radius:0;
-    background-size: 120%;
-    transform: scale(1.1);
-    border-radius:0;
-} */
+
+.test:hover .square-box
+{
+   cursor: pointer;
+   transform: scale(1.01);
+
+}
+.test:hover img
+{
+    border-radius: none;
+}
+
+.card-holder 
+{
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.test:hover .card-holder
+{
+   cursor: pointer;
+   transform: scale(1.01);
+
+}
 
 .premium{
     margin-top: 80px;
@@ -446,8 +488,287 @@ marquee{
     font-size: 18px;
     align-content: center;
     text-align: center;
-    margin-top: 70px;
+    margin: 80px 0;
 }
 .more-work:hover{
     cursor: pointer;
+}
+
+/* <!-- need a project --> */
+
+.desktop
+{
+    /* margin-top: 80px; */
+}
+.right-img img{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.need
+{
+    position: relative;
+}
+.need::after
+{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 1px;
+    top: 10px;
+    bottom: 0;
+    background-color: #c9f31d;
+}
+.right-proj
+{
+    color: #c9f31d;
+    padding-left: 80px;
+
+}
+.work{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.409);
+    padding-top: 90px;
+    transition: all 0.52s;
+}
+.work:hover
+{
+    border-bottom: 1px solid #c9f31d;
+}
+.meeting
+{
+    color: white;
+    padding-top: 20px ;
+   
+}
+.meeting h1
+{
+    font-size: 58px;
+}
+.span-svg
+{
+    background-color: #c9f31d;
+    padding: 20px;
+    border-radius: 100px;
+}
+.matias
+{
+    padding-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+.matias span
+{
+    color: rgba(128, 128, 128, 0.729);
+}
+.matias a
+{
+    color: white;
+}
+.fixed
+{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.409);
+    padding:20px 0;
+    transition: all 0.5s;
+}
+.fixed:hover
+{
+    border-bottom: 1px solid #c9f31d;
+}
+.matias p
+{
+    color: white;
+}
+
+/* <!-- provided services --> */
+
+.provide-left
+{
+    position: relative;
+}
+.provide-left::after
+{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 1px;
+    top: 12px;
+    left: 37%;
+    background-color: #c9f31d;
+}
+.special
+{
+    color: #c9f31d;
+    padding-right: 14px;
+    font-size: 20px;
+}
+.provide-right
+{
+    position: relative;
+}
+.provide-right::before
+{
+    position: absolute;
+    content: "";
+    width: 70px;
+    height: 1px;
+    top: -10px;
+    right: 38%;
+    background-color: #c9f31d;
+}
+.lets{
+    text-align: center;
+    padding-top: 80px ;
+}
+
+.business h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 42px ;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.serial-adjust
+{
+    color: white;
+    font-size: 20px;
+}
+.cont
+{
+    color: white;
+    line-height:40px;
+    padding-left: 50px;
+
+
+}
+.cont h5
+{
+    font-size: 20px;
+}
+.cont h2
+{
+    font-size: 30px;
+    transition: all 0.5s;
+}
+.pra
+{
+    color: #999999;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 500;
+}
+.down
+{
+    width: 50px ;
+    height: 50px;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    transition: all 0.5s;
+}
+.yellow-hoverable-row
+{
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    border-left: none;
+    border-right: none;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.yellow-hoverable-row:hover
+{
+    border: 1px solid #c9f31d;
+    border-left: none;
+    border-right: none;
+}
+.yellow-hoverable-row:hover h2
+{
+    color:  #c9f31d;
+}
+.yellow-hoverable-row:hover .down
+{
+    background-color: #c9f31d;
+    color: black;
+}
+.hoverable-row
+{
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding: 40px 0;
+}
+.hoverable-row:hover
+{
+    border: 1px solid #c9f31d;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.hoverable-row:hover h2
+{
+    color:  #c9f31d;
+}
+.hoverable-row:hover .down
+{
+    background-color: #c9f31d;
+    color: black;
+}
+
+/* <!-- footor-bottom --> */
+
+
+.bottom-foot
+{
+    margin-top: 50px;
+}
+.copy-right
+{
+    color: white;
+    padding: 20px 0;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.span-matias
+{
+    color: #c9f31d;
+}
+.terms
+{
+    gap: 38px;
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.condi
+{
+    transition: all 0.5s;
+}
+.condi:hover
+{
+    color: #c9f31d;
+}
+.private
+{
+    padding-left: 20px;
+    transition: all 0.5s;
+}
+.private:hover
+{
+    color: #c9f31d;
+}
+.toparrow
+{
+    padding: 10px;
+    background-color: #c9f31d;
+    border-radius: 5px;
 }
