@@ -3,8 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root
+{
+    --kanit:"kanit";
+    --caveat:"caveat";
+}
 body{
     background-color: #000;
+    font-family: var(--kanit),sans-serif;
+}
+.ff-caveat
+{
+    font-family: var(--caveat);
 }
 a{
     text-decoration: none;
@@ -98,6 +108,10 @@ ul,li
     border: none;
 }
 
+.transition
+{
+    transition: all 0.5s;
+}
 /* <!-- banner-content --> */
 
 
@@ -115,7 +129,7 @@ ul,li
 }
 .first-p{
     color: #ffff;
-    font-size: 25px;
+    font-size: 22px;
     text-transform: capitalize;
     text-align: left;
     line-height: 50px;
@@ -142,7 +156,7 @@ ul,li
 }
 .hone{
     color: #ffff;
-    font-size: 80px;
+    font-size: 50px;
     /* padding-left: 23%; */
     padding-top: 50px;
 }
@@ -151,7 +165,7 @@ ul,li
 }
 .process{
     color: #ffff;
-    font-size: 50px;
+    font-size: 20px;
     padding-left: 20px;
 }
 .triangle-btn
@@ -171,6 +185,11 @@ ul,li
 .video-btn-row{
     padding: 57px 0;
 }
+.zig-zag-row img
+{
+    animation: 2s  linear 0s infinite normal none running;
+}
+
 .designer{
     margin: auto;
 }
@@ -198,8 +217,8 @@ marquee{
 }
 .residing{
     color: #ffff;
-    font-size: 22px;
-    font-weight: 900;
+    font-size: 42px;
+    /* font-weight: 100; */
     padding-top: 50px;
     line-height: 50px;
 }
@@ -208,7 +227,7 @@ marquee{
 }
 .multiple-btns button{
     padding: 15px 25px;
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
     margin: 10px;
     cursor: pointer;
@@ -246,12 +265,13 @@ marquee{
 }
 .porro{
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 100;
     color: #efebebed;
     padding-left: 18px;
 }
 .personal{
     font-size: 45px;
+    font-weight: 400;
     margin-bottom: 30px;
     padding-left: 18px;
 }
@@ -273,6 +293,10 @@ marquee{
     font-size: 13px;
     text-transform: uppercase;
 }
+.mail h1
+{
+    font-weight: 400;
+}
 .id{
     padding: 10px 20px;
     text-transform: capitalize;
@@ -283,6 +307,7 @@ marquee{
 }
 .id a{
     color: #ffff;
+    font-weight: 400;
 }
 .app{
     margin-right: 80px;
@@ -321,39 +346,40 @@ marquee{
 .our{
     font-size: 25px;
     text-transform: capitalize;
-    font-weight:500;
-    padding: 30px 0;
 }
-.work{
+.our h1
+{
+    font-weight: 300;
+}
+.port{
     color: #c9f31d;
     font-size: 22px;
     text-transform: capitalize;
     font-weight:500;
-    padding: 30px 0;
 }
 .award{
     padding: 100px 50px;
 }
 .site
 {
-    font-size: 22px;
+    font-size: 20px;
     padding: 30px 0;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 300;
 }
 .animation
 {
-    font-size: 22px;
+    font-size: 20px;
     padding: 30px 0;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 300;
 }
 .year
 {
-    font-size: 22px;
+    font-size: 20px;
     padding: 30px 0;
     text-transform: capitalize;
-    font-weight: 500;
+    font-weight: 300;
 }
 .Strategy{
     padding-right: 60px;
@@ -363,9 +389,10 @@ marquee{
 
 
 .complete{
-    color: #ffff;
+    color: #c9f31d;
     font-size: 25px;
     padding:20px 10px;
+    font-family: var(--caveat);
 }
 
 
@@ -407,6 +434,11 @@ marquee{
     line-height: 60px;
     font-size: 30px;
     padding:0px 614px ;
+    
+}
+.project-head h1
+{
+    font-weight: 400;
 }
 .brand-motion{
     margin-top: 100px;
@@ -484,6 +516,7 @@ marquee{
 }
 .more-work
 {
+    position: relative;
     border: none;
     width: 210px;
     height: 210px;
@@ -497,12 +530,40 @@ marquee{
 .more-work:hover{
     cursor: pointer;
 }
+.more-work::after         
+{
+    content: "";
+    position: absolute;
+    bottom: -13px;
+    left: -13px;
+    width: 210px;
+    height: 210px;
+    /* opacity: 0; */
+    border-radius: 50%;
+    transition: 0.4s;
+    border: 1px solid #c9f31d;
+}
+.more-work::after:hover      
+{
+    content: "";
+    top: -12px;
+    left: -12px;
+    width: 210px;
+    height: 210px;
+    /* opacity: 0; */
+    border-radius: 50%;
+    transition: 0.4s;
+    border: 1px solid #c9f31d;
+}
 
 /* <!-- need a project --> */
 
 .right-img img{
     padding-left: 50px;
+    width: 528px;
+    height: 626px;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 .need
 {
@@ -522,6 +583,8 @@ marquee{
 {
     color: #c9f31d;
     padding-left: 80px;
+    font-family: var(--caveat);
+    font-size: 18px;
 
 }
 .work{
@@ -541,7 +604,8 @@ marquee{
 }
 .meeting h1
 {
-    font-size: 58px;
+    font-size: 50px;
+    font-weight: 300;
 }
 .span-svg
 {
