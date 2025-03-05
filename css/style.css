@@ -72,7 +72,7 @@ ul,li
 /* padding */
 .pr-10
 {
-    padding-right: 10pt;
+    padding-right: 10px;
 }
 .border-right{
     border: 1px solid rgba(255, 255, 255, 0.45);
@@ -222,6 +222,10 @@ ul,li
 marquee{
     background-color: #c9f31d;
     padding: 20px 0;
+}
+.marquee img
+{
+    width: 100%;
 }
 
 
